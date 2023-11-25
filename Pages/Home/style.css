@@ -3,12 +3,47 @@
     padding: 0;
 }
 body{
-    background-color: rgb(3, 29, 29);
+    background-color:rgb(35, 71, 59) ;
 }
-.home-page-banner{
-    background:url("./Images/home-page-banner.png");
+
+/* Start <Home-section> */
+.home-section-banner{
+    background: url('./images/home-page-banner.png');
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
     height: 100vh;
+
 }
+
+/* Close </Home-section> */
+
+/* Start <Home-Section-card> */
+.home-card-container{
+        justify-content: center;
+        padding: 1.5rem;
+}
+.home-cards{
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px;
+    width: 19rem;
+    background-color: rgb(104, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+.home-cards:hover{
+    transform: scale(1.1);
+    background-color: rgb(1, 10, 10);
+}
+.btn:hover{
+    transform: scale(1.1);
+    background-color: rgb(5, 5, 5);
+    color: white;
+}
+
+/*Close </Home-card> */
