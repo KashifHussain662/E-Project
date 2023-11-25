@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(105, 148, 178, 1);
+}
+
+/* start <animals-section-banner> */
+.animals-section-banner{
+    background: url('./Images/animal-section-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+/* close </animals-section-banner> */
+
+
+/* start <animals-section-cards> */
+
+.heading{
+    color: yellow;
+}
+
+.card-container{
+    border-top: 5px solid red;
+}
+.animal-cards{
+    border-radius: 38px;
+}
+.animal-card-heading{
+    color: yellow;
+    font-weight: 00;
+}
+.card-btn{
+    background-color: transparent;
+    border: none;
+}
+.icon{
+    font-size: 30px;
+    color: rgb(214, 214, 214);
+}
+
+/* close </animals-section-cards> */
