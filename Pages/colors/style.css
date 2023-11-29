@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: darkslategrey;
+}
+/* start color-section-banner */
+.color-section-banner{
+    background: url('./images/color-section-banner.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* close color-section-banner */
+
+/* start color-section-cards */
+.cards{
+    text-align: center;
+    padding: 60px;
+    color: white;
+    border-radius: 100px;
+    width: 239.667px;
+    height: 195.857px;
+    border: 5px solid rgba(217, 217, 217, 1);
+}
+.cards-button{
+    /* padding: 5px; */
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+
+#card-color-1{
+    background-color: rgba(0, 0, 255, 1);
+}
+
+#card-color-2{
+    background-color: rgba(255, 0, 0, 1);
+}
+
+#card-color-3{
+    background-color: rgba(0, 128, 0, 1);
+}
+
+#card-color-4{
+    background-color: rgba(255, 255, 0, 1);
+}
+
+#card-color-5{
+    background-color: rgba(128, 0, 128, 1);
+}
+
+#card-color-6{
+    background-color: rgba(232, 38, 249, 1);
+}
+
+#card-color-7{
+    background-color: rgba(142, 36, 36, 1);
+
+}
+
+#card-color-8{
+    background-color: rgba(227, 147, 0, 1);
+}
+
+#card-color-9{
+    background-color: rgba(128, 128, 128, 1);
+}
+
+#card-color-10{
+    background-color: rgba(0, 0, 0, 1);
+}
+#card-color-11{
+    background-color: rgba(255, 255, 255, 1);
+}
+#card-color-12{
+    background-color: rgb(109, 24, 24);
+}
