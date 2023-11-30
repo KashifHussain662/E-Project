@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #614d4d;
+}
+
+#game-container {
+    text-align: center;
+}
+
+#color-display {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 2px solid #000;
+}
+
+.color-option {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
